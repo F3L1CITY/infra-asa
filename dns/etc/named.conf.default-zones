@@ -19,6 +19,6 @@ zone "localhost" {
 
 zone "prova.asa.br" {
 	type master;
-	file "/etc/bind/db.ac.asa.br";
-	allow-transfer {0.0.0.0; };
+	file "/etc/bind/db.prova.asa.br";
+	//allow-transfer {0.0.0.0; };
 };
